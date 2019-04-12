@@ -3,30 +3,45 @@ body {
 }
 
 #navbar {
-  position: fixed;
-  
+  /* position : fixed; */
+  color: white;
+  background-color: #b0c3c98a;
+  font-size: 1.5em;
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #b0c3c98a;
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* position: fixed; */
+  /* overflow: hidden; */
 }
 
-li  {
-  display: inline;
+li {
+}
+
+li a {
+  display: block;
+  
+  /* text-align: center; */
+  /* padding: 14px 16px; */
+  /* text-decoration: none; */
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 #welcome-section {
-background-color: purple;
+  background-color: purple;
 }
 
+#projects {
+background-color: green;
+}
 .project-tile {
-  background-color: green;
-
-
-
-
-
+  
+}
