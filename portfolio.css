@@ -49,11 +49,14 @@ li a:hover {
   background-color: purple;
   
 }
-
+#projects {
+  text-align: center;
+}
 .project-tile {
+ 
   background-color: ivory;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
   padding: 2rem;
 }
@@ -66,5 +69,9 @@ li a:hover {
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 10px 40px rgba(0,0,0,.5);
+  border-radius: 5px;
 }
 
+img {
+  width: 50%;
+}
