@@ -1,19 +1,27 @@
 body {
   margin: 0;
-  padding : 0;
-  background-color: gray;
+  padding: 0;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
   height: 100%;
 }
 
 #navbar {
-  position : fixed;
-  color: white;
+  position: fixed;
+  color: ivory;
   background-color: #b0c3c98a;
   width: 100%;
   font-size: 1.1em;
- 
-
 }
 
 ul {
@@ -25,11 +33,9 @@ ul {
   padding-right: 0.5em;
 }
 
-
 li a {
-  
-  color:white;
-  font-family: Helvetica,Arial,sans-serif;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 
@@ -37,24 +43,26 @@ li a:hover {
   color: brown;
 }
 
- .main-photo {
+.main-photo {
   max-width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5em;
   border-radius: 90px;
- }
-#welcome-section {
-  background-color: purple;
-  
 }
+#welcome-section {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
 #projects {
   text-align: center;
-}
-.project-tile {
- 
   background-color: ivory;
+}
+
+.project-tile {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
@@ -68,10 +76,23 @@ li a:hover {
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
-  box-shadow: 0 10px 40px rgba(0,0,0,.5);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
 img {
   width: 50%;
+}
+
+#resume {
+  max-width: 960px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  display: grid;
+  /* grid-template-colums: 1fr 4fr; */
+  grid-gap: 20px;
 }
