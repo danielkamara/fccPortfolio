@@ -55,9 +55,6 @@ li a:hover {
   color: white;
   text-align: center;
   font-size: 2em;
-  padding-top: 0px;
-  margin-top: 0px;
-  display: block;
   height: 100vh;
 }
 
@@ -99,4 +96,9 @@ section {
   display: grid;
   /* grid-template-colums: 1fr 4fr; */
   grid-gap: 20px;
+}
+
+@media screen and (max-width: 750px) {
+
+  
 }
