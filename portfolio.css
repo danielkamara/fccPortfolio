@@ -54,7 +54,6 @@ li a:hover {
 
 h2 {
   font-size: 5em;
-  color: ;
 }
 
 #welcome-section {
@@ -83,8 +82,13 @@ h2 {
   background-color: ivory;
 }
 
+#profile-link {
+  text-decoration: none;
+}
+
 .pro {
   font-size: 1.5em;
+  text-decoration: none;
 }
 
 .project-tile {
