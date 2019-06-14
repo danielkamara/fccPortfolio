@@ -52,7 +52,10 @@ li a:hover {
   border-radius: 90px;
 }
 
-
+h2 {
+  font-size: 5em;
+  color: ;
+}
 
 #welcome-section {
   color: white;
@@ -62,7 +65,7 @@ li a:hover {
 }
 
 .banner-text {
-  background-color:#898888;
+  background-color: #898888;
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -78,6 +81,10 @@ li a:hover {
 #projects {
   text-align: center;
   background-color: ivory;
+}
+
+.pro {
+  font-size: 1.5em;
 }
 
 .project-tile {
