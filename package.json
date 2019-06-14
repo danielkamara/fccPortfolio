@@ -1,0 +1,21 @@
+{
+  "name": "fccPortfolio",
+  "version": "1.0.0",
+  "description": "This was for freecodecamp.org / Responsive Certificate",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamIsHere/fccPortfolio/issues"
+  },
+  "homepage": "https://KamIsHere.github.io/fccPortfolio",
+  "dependencies" : { 
+    "gh-pages": "^2.0.1"
+  }
+}
+
