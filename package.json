@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d FCCPORTFOLIO"
+    "deploy": "gh-pages -d fccportfolio"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://KamIsHere.github.io/fccPortfolio",
+  "homepage": "https://kamishere.github.io/fccPortfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "latest-version": "^5.1.0"
