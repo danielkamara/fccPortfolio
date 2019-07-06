@@ -118,6 +118,15 @@ section {
   grid-gap: 20px;
 }
 
+
+footer {
+  color: ivory;
+  background-color: #b0c3c98a;
+  width: 100%;
+  font-size: 1.1em;
+  padding: 2em;
+}
+
 @media screen (max-width: 500px) {
   #navbar {
     display: block;
