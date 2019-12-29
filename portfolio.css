@@ -43,6 +43,10 @@ li a:hover {
   color: brown;
 }
 
+#name {
+  left: 30px;
+}
+
 .main-photo {
   max-width: 250px;
   display: block;
